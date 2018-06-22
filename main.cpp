@@ -4,8 +4,6 @@ int main()
 	Number *p;
 	double q, w;
 	cin >> q>>w;
-	RealNumber(q);
-	RealNumber(w);
 	RealNumber E = RealNumber(q).add(RealNumber(w));
 	p = &E;
 	(*p).print();
